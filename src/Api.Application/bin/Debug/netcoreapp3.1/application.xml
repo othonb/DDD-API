@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>application</name>
+    </assembly>
+    <members>
+        <member name="M:Api.Application.Controllers.UsersController.GetAll">
+             <summary>
+             Retorna todos os usuários
+             </summary>
+             <remarks>
+             Exemplo de requisição:
+            
+                 GET /api/users
+            
+             </remarks>
+             <returns>Retorna todos os registros quando há sucesso</returns>
+             <response code="200">Retorna todos os registros quando há sucesso</response>
+             <response code="400">Erro no parâmetro</response>
+        </member>
+        <member name="M:Api.Application.Controllers.UsersController.GetById(System.Guid)">
+             <summary>
+             Retorna um usuário específico pelo id
+             </summary>
+             <remarks>
+             Exemplo de requisição:
+            
+                 GET /api/users/3fa85f64-5717-4562-b3fc-2c963f66afa6
+            
+             </remarks>
+             <param name="id"></param>
+             <returns>Retorna o registro selecionado quando há sucesso</returns>
+             <response code="200">Retorna o registro selecionado quando há sucesso</response>
+             <response code="400">Erro no parâmetro</response>
+        </member>
+        <member name="M:Api.Application.Controllers.UsersController.Post(Api.Domain.Entities.UserEntity)">
+             <summary>
+             Insere um usuário específico
+             </summary>
+             <remarks>
+             Exemplo de requisição:
+            
+                 POST /api/users
+                 {
+                     "name": "Fulano de Tal",
+                     "email": "fulano@gmail.com"
+                 }
+            
+             </remarks>
+             <param name="user"></param>
+             <returns>Retorna o registro inserido quando há sucesso</returns>
+             <response code="200">Retorna o registro inserido quando há sucesso</response>
+             <response code="400">Erro no parâmetro</response>
+        </member>
+        <member name="M:Api.Application.Controllers.UsersController.Put(Api.Domain.Entities.UserEntity)">
+             <summary>
+             Atualiza um usuário específico pelo id
+             </summary>
+             <remarks>
+             Exemplo de requisição:
+            
+                 PUT /api/users
+                 {
+                     "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+                     "name": "Fulano de Tal",
+                     "email": "fulano@gmail.com"
+                 }
+            
+             </remarks>
+             <param name="user"></param>
+             <returns>Retorna o registro alterado quando há sucesso</returns>
+             <response code="200">Retorna o registro alterado quando há sucesso</response>
+             <response code="400">Erro no parâmetro</response>
+        </member>
+        <member name="M:Api.Application.Controllers.UsersController.Delete(System.Guid)">
+             <summary>
+             Apaga um usuário específico pelo id
+             </summary>
+             <remarks>
+             Exemplo de requisição:
+            
+                 DELETE /api/users
+                 {
+                    "id": "cd8d0c76-565e-4d83-8a9a-43020ca2616d"
+                 }
+            
+             </remarks>
+             <param name="id"></param>
+             <returns>Retorna true para remoção com sucesso</returns>
+             <response code="200">Retorna true para remoção com sucesso</response>
+             <response code="400">Erro no parâmetro</response>
+        </member>
+    </members>
+</doc>

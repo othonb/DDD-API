@@ -1,0 +1,14 @@
+/Users/othon/fontes/dotnet/curso-api/src/Api.Service/bin/Debug/netcoreapp3.1/Service.deps.json
+/Users/othon/fontes/dotnet/curso-api/src/Api.Service/bin/Debug/netcoreapp3.1/Service.dll
+/Users/othon/fontes/dotnet/curso-api/src/Api.Service/bin/Debug/netcoreapp3.1/Service.pdb
+/Users/othon/fontes/dotnet/curso-api/src/Api.Service/obj/Debug/netcoreapp3.1/Service.AssemblyInfoInputs.cache
+/Users/othon/fontes/dotnet/curso-api/src/Api.Service/obj/Debug/netcoreapp3.1/Service.AssemblyInfo.cs
+/Users/othon/fontes/dotnet/curso-api/src/Api.Service/obj/Debug/netcoreapp3.1/Service.csproj.CoreCompileInputs.cache
+/Users/othon/fontes/dotnet/curso-api/src/Api.Service/obj/Debug/netcoreapp3.1/Service.dll
+/Users/othon/fontes/dotnet/curso-api/src/Api.Service/obj/Debug/netcoreapp3.1/Service.pdb
+/Users/othon/fontes/dotnet/curso-api/src/Api.Service/bin/Debug/netcoreapp3.1/Data.dll
+/Users/othon/fontes/dotnet/curso-api/src/Api.Service/bin/Debug/netcoreapp3.1/Domain.dll
+/Users/othon/fontes/dotnet/curso-api/src/Api.Service/bin/Debug/netcoreapp3.1/Domain.pdb
+/Users/othon/fontes/dotnet/curso-api/src/Api.Service/bin/Debug/netcoreapp3.1/Data.pdb
+/Users/othon/fontes/dotnet/curso-api/src/Api.Service/obj/Debug/netcoreapp3.1/Service.csprojAssemblyReference.cache
+/Users/othon/fontes/dotnet/curso-api/src/Api.Service/obj/Debug/netcoreapp3.1/Service.csproj.CopyComplete
